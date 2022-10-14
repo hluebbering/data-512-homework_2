@@ -22,3 +22,17 @@ We need data that lists `Wikipedia articles of politicians` and data for `countr
 
 
 1. `politicians_by_country.SEPT.2022.csv`: a list of article pages about politicians from different countries crawled from the Wikipedia [Category: Politicians by nationality](https://en.wikipedia.org/wiki/Category:Politicians_by_nationality)
+
+
+
+
+
+
+
+------------------------------------
+
+
+
+## Write-up, Reflections and Implications
+
+
