@@ -21,8 +21,25 @@ We perform an analysis of how the coverage of politicians on Wikipedia and the q
 Lastly, the reflection focuses on how the project analysis findings and the process to reach those findings help understand the causes and consequences of biased data in large, complex data science projects.
 
 
+```python
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+from IPython.display import HTML
+from IPython.core.display import HTML
+
+def css_styling(): # Styling notebook
+    styles = open("./data/custom.css", "r").read()
+    return HTML(styles)
+css_styling()
+```
+
 
 ----------------------------------------------------
+
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Roboto+Black&size=28&duration=2800&pause=2000&color=417649&background=FFFFFF00&vCenter=true&width=670&lines=Homework+2.+Considering+Bias+in+Data)](https://git.io/typing-svg)
 
 
 ## Step 1: Getting the Article and Population Data
