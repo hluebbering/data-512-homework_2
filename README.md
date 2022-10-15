@@ -1,48 +1,15 @@
 
 # Homework 2. Considering Bias in Data
 
-![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
-[![ForTheBadge powered-by-electricity](http://ForTheBadge.com/images/badges/powered-by-electricity.svg)](http://ForTheBadge.com)
-[![ForTheBadge uses-git](http://ForTheBadge.com/images/badges/uses-git.svg)](https://GitHub.com/)
-[![forthebadge cc-0](http://ForTheBadge.com/images/badges/cc-0.svg)](http://ForTheBadge.com)
+[![Made withJupyter](https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter)](https://jupyter.org/try)
+![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
 ![Wikipedia](https://img.shields.io/badge/Wikipedia-%23000000.svg?style=for-the-badge&logo=wikipedia&logoColor=white)
-
-
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
 
-# ![CSS3](https://img.shields.io/badge/Project-Goal-%23008080.svg?style=plastic&logo=star&logoColor=white) 
 
-![LaTeX](https://img.shields.io/badge/latex-%23008080.svg?style=plastic&logo=latex&logoColor=white)
-
-
-
-
----
-[![](https://visitcount.itsvg.in/api?id=hluebbering&icon=7&color=10)](https://visitcount.itsvg.in)
-
-
-
-[![Made withJupyter](https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter)](https://jupyter.org/try)
-
-[![forthebad
-ge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
-
-![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
-
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626.svg?&style=for-the-badge&logo=Jupyter&logoColor=white)
-
-<img height="32" width="32" src="https://user-images.githubusercontent.com/61786322/195970564-6ff7fa35-43bb-4ff6-b415-e537e099074a.svg"/>
-
-
-
-
-
-
-
-
-[![Made withJupyter](https://img.shields.io/badge/Project%20-Goal-pink?style=for-the-badge&logo=Jupyter&logoColor=magenta)](https://jupyter.org/try)
-
-> **Project Goal:** The following explores the concept of data bias using Wikipedia articles considering political figures from different countries. For this project, we combine a dataset of Wikipedia articles with a dataset of country populations. We then use `ORES`, a machine learning service, to estimate the quality of each article.
+![CSS3](https://img.shields.io/badge/Project-Goal:-%23008080.svg?style=plastic&logo=star&logoColor=white)
+The following explores the concept of data bias using Wikipedia articles considering political figures from different countries. For this project, we combine a dataset of Wikipedia articles with a dataset of country populations. We then use `ORES`, a machine learning service, to estimate the quality of each article.
 
 We perform an analysis of how the coverage of politicians on Wikipedia and the quality of articles about politicians varies among countries. The analysis consists of a series of tables that show:
 
@@ -52,6 +19,8 @@ We perform an analysis of how the coverage of politicians on Wikipedia and the q
 
 
 Lastly, the reflection focuses on how the project analysis findings and the process to reach those findings help understand the causes and consequences of biased data in large, complex data science projects.
+
+
 
 ----------------------------------------------------
 
