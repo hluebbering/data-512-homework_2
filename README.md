@@ -491,7 +491,16 @@ The 10 countries with the highest high quality articles per capita (in descendin
 
 
 ```
-
+    [('Andorra', 2e-05),
+     ('Montenegro', 5e-06),
+     ('Albania', 2.1428571428571427e-06),
+     ('Suriname', 1.6666666666666667e-06),
+     ('Bosnia-Herzegovina', 1.4705882352941177e-06),
+     ('Lithuania', 1.0714285714285714e-06),
+     ('Croatia', 1.0526315789473683e-06),
+     ('Slovenia', 9.523809523809523e-07),
+     ('Palestinian Territory', 9.259259259259259e-07),
+     ('Gabon', 8.333333333333333e-07)]
 ```
 
 
@@ -501,7 +510,17 @@ The 10 countries with the highest high quality articles per capita (in descendin
 The 10 countries with the lowest high quality articles per capita (in ascending order).
 
 
-```python
+```
+    [('Sudan', 2.1321961620469082e-08),
+     ('Pakistan', 2.1204410517387617e-08),
+     ('Uganda', 2.11864406779661e-08),
+     ('Colombia', 2.0366598778004074e-08),
+     ('Vietnam', 2.012072434607646e-08),
+     ('Nigeria', 1.8306636155606407e-08),
+     ('Japan', 1.601281024819856e-08),
+     ('Thailand', 1.497005988023952e-08),
+     ('India', 4.233700254022016e-09),
+     ('Tuvalu', 0)]
 
 ```
 
@@ -541,6 +560,25 @@ Rank ordered list of geographic regions (in descending order) by high quality ar
 
 
 ```
+    [('SOUTHERN EUROPE', 5.821192052980132e-06),
+     ('CARIBBEAN', 4.5454545454545455e-06),
+     ('WESTERN EUROPE', 3.49746192893401e-06),
+     ('EASTERN EUROPE', 2.5470383275261325e-06),
+     ('NORTHERN EUROPE', 2.439252336448598e-06),
+     ('WESTERN ASIA', 2.326530612244898e-06),
+     ('OCEANIA', 1.9545454545454545e-06),
+     ('SOUTHERN AFRICA', 1.6956521739130435e-06),
+     ('EASTERN AFRICA', 1.3657505285412261e-06),
+     ('SOUTH AMERICA', 1.327188940092166e-06),
+     ('WESTERN AFRICA', 1.3186046511627906e-06),
+     ('CENTRAL ASIA', 1.3076923076923077e-06),
+     ('CENTRAL AMERICA', 1.0786516853932585e-06),
+     ('MIDDLE AFRICA', 1.0357142857142857e-06),
+     ('NORTHERN AFRICA', 9.043824701195219e-07),
+     ('SOUTHEAST ASIA', 6.050295857988165e-07),
+     ('SOUTH ASIA', 3.207171314741036e-07),
+     ('EAST ASIA', 1.4516129032258064e-07)]
+
 
 ```
 
