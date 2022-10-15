@@ -1,3 +1,118 @@
+<link href="https://raw.githubusercontent.com/hluebbering/data-512-homework_2/main/data/custom.css" rel="stylesheet"></link>
+
+
+```python
+from IPython.display import HTML, display
+from urllib.request import urlopen
+
+CSS_URL = "https://raw.githubusercontent.com/rsomani95/jupyter-custom-theme/master/custom.css"
+CSS_URL = "https://raw.githubusercontent.com/hluebbering/data-512-homework_2/main/data/custom.css"
+CSS = urlopen(CSS_URL)
+CSS = CSS.read().decode('utf-8')
+HTML_CSS = f"""
+<style>
+{CSS}
+</style>
+"""
+HTML(HTML_CSS)
+```
+
+
+
+
+
+<style>
+ .markdown-body h2 {
+    padding-bottom: .3em;
+    font-size: 1.5em;
+    border-bottom: 1px solid var(--color-border-muted);
+    background: purple !important;
+}
+body {
+  font-family: Roboto;
+
+}
+
+h1 {
+    font-weight: 800; 
+    font-family: Roboto; 
+    color: black;
+}
+
+h2 {
+    color: white;
+    font-family: Roboto Condensed;
+    text-shadow: 0.5pt 0.5pt 0.5pt black, 1pt 1pt 1pt black, -0.25pt -0.435pt 0.35pt hsl(0deg 0% 100% / 50%);
+    filter: drop-shadow(0.5px 0.5px 0.5px hsl(176deg 65% 10% / 75%));
+    padding: 6pt 4pt;
+    background: hsl(180deg 25% 15%);
+    background-image: radial-gradient(teal 20%, transparent 0), radial-gradient(teal 20%, transparent 0);
+    background-size: 30px 30px;
+    background-position: 0 0, 15px 15px;
+    letter-spacing: 0.25pt;
+    display: inline-flex;
+    border-radius: 6pt;
+}
+
+.myfont {
+    background: azure;
+    color: hsl(219deg 90% 58%);
+    text-shadow: 0.125pt 0.375pt 0.45pt hsl(208deg 100% 40% / 95%);
+    font-weight: 400;
+    font-family: Roboto;
+    border-radius: 4pt;
+    padding: 2pt 3pt;
+    box-shadow: 0.5pt 0.5pt 1.125pt #333;
+}
+mark {
+    background:lavender;
+    color:black;
+    font-weight: 700;
+    border-radius: 5pt;
+    padding: 2pt 3pt;
+}
+
+mark.mark2, mark.mark3 {
+    background: hsl(120deg 25% 75%);
+    font-size: 12pt;
+    box-shadow: 0.5pt 0.5pt 1pt hsl(0deg 0% 47% / 75%);
+    text-shadow: 0.125pt 0.35pt 1pt hsl(0deg 0% 0% / 92%);
+    color: white;
+    padding: 3pt 6pt;
+    font-weight: 800;
+    font-size: 11.5pt;
+    letter-spacing: 0.125pt;
+}
+
+mark.mark3 {
+    background: hsl(170deg 45% 75%);
+    font-size: 11pt;
+    padding: 2pt 4pt;
+}
+
+code.mycode {
+    background: lavender;
+    padding: 2pt 4pt;
+    border-radius: 4pt;
+    box-shadow: 0.5pt 0.5pt 1.5pt hsl(0deg 0% 34% / 75%);
+}
+
+code.mycode2 {
+    background: hsl(208deg 100% 97% / 50%);
+    font-family: Roboto Condensed;
+    color: darkslategray;
+    padding: 3pt 4pt;
+    border-radius: 4pt;
+    box-shadow: 0.5pt 0.5pt 1.5pt hsl(0deg 0% 34% / 75%);
+    font-size: 9pt;
+    line-height: 2.5;
+}
+
+</style>
+
+
+
+
  
 # Homework 2. Considering Bias in Data 
 
@@ -91,7 +206,9 @@ mark.mark2, mark.mark3 {
 }
 
 mark.mark3 {
-    background: green;
+    background: hsl(170deg 45% 75%);
+    font-size: 11pt;
+    padding: 2pt 4pt;
 }
 
 code.mycode {
