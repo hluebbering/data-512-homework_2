@@ -13,9 +13,9 @@ The following explores the concept of data bias using Wikipedia articles conside
 
 We perform an analysis of how the coverage of politicians on Wikipedia and the quality of articles about politicians varies among countries. The analysis consists of a series of tables that show:
 
-- countries with the greatest and least coverage of politicians on Wikipedia compared to their population
-- countries with the highest and lowest proportion of high quality articles about politicians
-- a ranking of geographic regions by articles-per-person and proportion of high quality articles
+- ✅ Country coverage of politicians on Wikipedia compared to their population</br>
+- ✅ Country proportion of high quality articles about politicians</br>
+- ✅ Ranking of regions by articles-per-person and proportion of high quality articles</br>
 
 
 Lastly, the reflection focuses on how the project analysis findings and the process to reach those findings help understand the causes and consequences of biased data in large, complex data science projects.
