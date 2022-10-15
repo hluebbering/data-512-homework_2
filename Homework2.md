@@ -1,16 +1,5 @@
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Roboto+Black&size=38&duration=2800&pause=2000&color=417649&background=FFFFFF00&vCenter=true&width=670&lines=Homework+2.+Considering+Bias+in+Data)](https://git.io/typing-svg)
 
-
-<p align="center">
-  <img src="https://guilyx.vercel.app/api/top-played">
-</p>
- 
-```yaml
-section: spotify components info
-tutorial_path: guilyx/guilyx/how-to.md
-original_idea: natemoo-re
-improved_by: andyruwruw
-note: thanks to both of them!
-```
 
 
 [![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=hannahluebbering&cover_image=true&theme=novatorem&show_offline=false&bar_color=d528e2&bar_color_cover=false)](https://spotify-github-profile.vercel.app/api/view?uid=hannahluebbering&redirect=true)
@@ -128,7 +117,6 @@ code.mycode2 {
 }
 
 </style>
-
 
 
 
