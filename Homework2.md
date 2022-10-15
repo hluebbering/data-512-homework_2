@@ -1,4 +1,18 @@
 
+
+<p align="center">
+  <img src="https://guilyx.vercel.app/api/top-played">
+</p>
+ 
+```yaml
+section: spotify components info
+tutorial_path: guilyx/guilyx/how-to.md
+original_idea: natemoo-re
+improved_by: andyruwruw
+note: thanks to both of them!
+```
+
+
 [![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=hannahluebbering&cover_image=true&theme=novatorem&show_offline=false&bar_color=d528e2&bar_color_cover=false)](https://spotify-github-profile.vercel.app/api/view?uid=hannahluebbering&redirect=true)
 
 [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=hluebbering&theme=gruvbox&border_radius=12&date_format=M%20j%5B%2C%20Y%5D&fire=FF7500&sideNums=FF7500&dates=A2BD7F&stroke=7D1D40&currStreakNum=FF1578&currStreakLabel=FF1578&sideLabels=FF81E2)](https://git.io/streak-stats)
