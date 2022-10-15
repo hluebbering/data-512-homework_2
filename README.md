@@ -423,12 +423,7 @@ After merging the data, we invariably run into entries which cannot be merged. S
 
 ## Step 4: Analysis
 
-The analysis consists of calculating the following on a country-by-country and regional basis:
-
-- `total-articles-per-population` - a ratio representing the number of articles per person
-- `high-quality-articles-per-population` - a ratio representing the number of high quality articles per person
-
-All of these values are to be "per capita".
+The analysis consists of calculating the following on a country-by-country and regional basis "per capita".
 
 
 #### `total-articles-per-population`
