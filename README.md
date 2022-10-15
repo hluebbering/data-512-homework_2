@@ -556,8 +556,12 @@ Reflect on what you have learned, what you found, what (if anything) surprised y
 
 
 1. What biases did you expect to find in the data (before you started working with it), and why?
+
+
 2. What (potential) sources of bias did you discover in the course of your data processing and analysis?
+
 3. What might your results suggest about (English) Wikipedia as a data source?
+
 4. What might your results suggest about the internet and global society in general?
 5. Can you think of a realistic data science research situation where using these data (to train a model, perform a hypothesis-driven research, or make business decisions) might create biased or misleading results, due to the inherent gaps and limitations of the data?
 6. Can you think of a realistic data science research situation where using these data (to train a model, perform a hypothesis-driven research, or make business decisions) might still be appropriate and useful, despite its inherent limitations and biases?
