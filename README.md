@@ -2,6 +2,8 @@
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626.svg?&style=for-the-badge&logo=Jupyter&logoColor=white)
+
 <img height="32" width="32" src="https://user-images.githubusercontent.com/61786322/195970564-6ff7fa35-43bb-4ff6-b415-e537e099074a.svg"/>
 
 https://pagespeed-insights.herokuapp.com?url=https://ankurparihar.github.io
