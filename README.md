@@ -554,7 +554,8 @@ Now, we get the ranked `ordered list of geographic regions` (in descending order
 ```
 
 
-> 6. Geographic regions by high quality coverage:
+
+> ### 6. Geographic regions by high quality coverage:
 
 Rank ordered list of geographic regions (in descending order) by high quality articles per capita.
 
@@ -578,8 +579,6 @@ Rank ordered list of geographic regions (in descending order) by high quality ar
      ('SOUTHEAST ASIA', 6.050295857988165e-07),
      ('SOUTH ASIA', 3.207171314741036e-07),
      ('EAST ASIA', 1.4516129032258064e-07)]
-
-
 ```
 
 ------------------------------------
