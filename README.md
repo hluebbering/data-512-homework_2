@@ -8,15 +8,19 @@
 ![Jupyter](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
 
 
-![CSS3](https://img.shields.io/badge/Project-Goal:-%23008080.svg?style=plastic&logo=star&logoColor=white)
+<br>
+
+
+
+> ![CSS3](https://img.shields.io/badge/Project-Goal:-%23008080.svg?style=plastic&logo=star&logoColor=white)
 The following explores the concept of data bias using Wikipedia articles considering political figures from different countries. For this project, we combine a dataset of Wikipedia articles with a dataset of country populations. We then use `ORES`, a machine learning service, to estimate the quality of each article.
 
 We perform an analysis of how the coverage of politicians on Wikipedia and the quality of articles about politicians varies among countries. The analysis consists of a series of tables that show:
 
+
 - ✅ Country coverage of politicians on Wikipedia compared to their population</br>
 - ✅ Country proportion of high quality articles about politicians</br>
 - ✅ Ranking of regions by articles-per-person and proportion of high quality articles</br>
-
 
 Lastly, the reflection focuses on how the project analysis findings and the process to reach those findings help understand the causes and consequences of biased data in large, complex data science projects.
 
@@ -36,19 +40,17 @@ css_styling()
 ```
 
 
+
+
+
+
 ----------------------------------------------------
 
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Roboto+Black&size=28&duration=2800&pause=2000&color=417649&background=FFFFFF00&vCenter=true&width=670&lines=Homework+2.+Considering+Bias+in+Data)](https://git.io/typing-svg)
+
+1. <code class = "mycode">politicians_by_country.SEPT.2022.csv</code>: a list of article pages about politicians from different countries crawled from the Wikipedia [Category: Politicians by nationality](https://en.wikipedia.org/wiki/Category:Politicians_by_nationality)
 
 
-## Step 1: Getting the Article and Population Data
-
-
-We need data that lists `Wikipedia articles of politicians` and data for `country populations`.
-
-
-1. `politicians_by_country.SEPT.2022.csv`: a list of article pages about politicians from different countries crawled from the Wikipedia [Category: Politicians by nationality](https://en.wikipedia.org/wiki/Category:Politicians_by_nationality)
 
 ```python
 politician_articles = pd.read_csv('data/politicians_by_country_SEPT.2022.csv')
@@ -58,6 +60,135 @@ politician_articles.head()
 
 
 
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>name</th>
+      <th>url</th>
+      <th>country</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Shahjahan Noori</td>
+      <td>https://en.wikipedia.org/wiki/Shahjahan_Noori</td>
+      <td>Afghanistan</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Abdul Ghafar Lakanwal</td>
+      <td>https://en.wikipedia.org/wiki/Abdul_Ghafar_Lak...</td>
+      <td>Afghanistan</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Majah Ha Adrif</td>
+      <td>https://en.wikipedia.org/wiki/Majah_Ha_Adrif</td>
+      <td>Afghanistan</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Haroon al-Afghani</td>
+      <td>https://en.wikipedia.org/wiki/Haroon_al-Afghani</td>
+      <td>Afghanistan</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Tayyab Agha</td>
+      <td>https://en.wikipedia.org/wiki/Tayyab_Agha</td>
+      <td>Afghanistan</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+&#10148; *NOTE.* Data crawling Wikipedia to identify page subsets might result in misleading and/or duplicate category labels. Document any data inconsistencies and how to handle them.
+
+
+2. <code class = "mycode">population_by_country_2022.csv</code>: country populations data drawn from the [world population data sheet](https://www.prb.org/international/indicator/population/table) published by the Population Reference Bureau.
+
+
+```python
+country_populations = pd.read_csv('data/population_by_country_2022.csv')
+country_populations.head()
+```
+
+
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Geography</th>
+      <th>Population (millions)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>WORLD</td>
+      <td>7963.0</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>AFRICA</td>
+      <td>1419.0</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>NORTHERN AFRICA</td>
+      <td>251.0</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Algeria</td>
+      <td>44.9</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Egypt</td>
+      <td>103.5</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+----------------------------------------------------
 
 
 ------------------------------------
