@@ -1,5 +1,13 @@
 # Homework 2. Considering Bias in Data
 
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+
+```
+The background color should be `#ffffff` for light mode and `#0d1117` for dark mode.
+```
+
+`#0969DA`
+
 
 > **Project Goal:** The following explores the concept of data bias using Wikipedia articles considering political figures from different countries. For this project, we combine a dataset of Wikipedia articles with a dataset of country populations. We then use `ORES`, a machine learning service, to estimate the quality of each article.
 
