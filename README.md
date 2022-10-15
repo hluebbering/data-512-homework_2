@@ -6,7 +6,7 @@
 
 https://pagespeed-insights.herokuapp.com?url=https://ankurparihar.github.io
 
-
+https://pagespeed-insights.herokuapp.com/?url=https://www.mediawiki.org/wiki/API:Main_page&theme=dark
 
 > **Project Goal:** The following explores the concept of data bias using Wikipedia articles considering political figures from different countries. For this project, we combine a dataset of Wikipedia articles with a dataset of country populations. We then use `ORES`, a machine learning service, to estimate the quality of each article.
 
